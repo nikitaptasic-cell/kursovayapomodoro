@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:url("pimidiri.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+#timerDisplay {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.workMode {
+    color: #c0392b;
+    background: #ffeaea;
+}
+
+.breakMode {
+    color: #27ae60;
+    background: #eaffea;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+}
+
+#resetBtn {
+    background: #7f8c8d;
+}
+
+.stats {
+    margin: 25px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.history ul {
+    padding: 0;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.history li {
+    list-style: none;
+    padding: 8px;
+    background: #f1f1f1;
+    margin: 5px 0;
+    border-radius: 6px;
+}
+
+#startPauseBtn {
+    background: #3498db;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#startPauseBtn:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#resetBtn {
+    background: #9b59b6;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#resetBtn:hover {
+    background: #7d3c98;
+    transform: scale(1.05);
+    cursor: pointer;
+}

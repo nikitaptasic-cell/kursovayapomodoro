@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Таймер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍅Pomodoro Таймер🍅</h1>
+        
+        <div id="modeText">Режим: РАБОТА</div>
+        <div id="timerDisplay">25:00</div>
+        
+        <button id="startPauseBtn">Старт</button>
+        <button id="resetBtn">Сброс</button>
+        
+        <div class="stats">
+            <p>Помидоров: <span id="pomodoroCount">0</span></p>
+            <p>Время работы: <span id="totalWorkTime">0</span> мин</p>
+        </div>
+        
+        <div class="history">
+            <h3>История</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
