@@ -3,7 +3,7 @@
 Таймер для работы по методике Pomodoro: 25 минут работы, 5 минут отдыха.
 
 Клонирование репозитория
-git clone https://github.com/твой-логин/pomodoro-timer.git
+git clone 
 
 text
 
