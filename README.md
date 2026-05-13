@@ -1,14 +1,25 @@
-Pomodoro Таймер
+ Pomodoro Таймер
 
 Таймер для работы по методике Pomodoro: 25 минут работы, 5 минут отдыха.
 
- Запуск
+Клонирование репозитория
+git clone https://github.com/твой-логин/pomodoro-timer.git
 
-1. Скачать файлы (index.html, style.css, script.js)
-2. Открыть index.html в браузере
+text
 
- Минимальные версии браузеров
+Запуск
+
+1. Открыть папку с проектом
+2. Дважды кликнуть на файл index.html
+
+# Минимальные версии браузеров
+
 - Chrome 51+
 - Firefox 54+
 - Edge 79+
 - Safari 12.1+
+- Opera 38+
+
+# Технологии
+
+HTML, CSS, JavaScript, localStorage
